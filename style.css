@@ -1,4 +1,30 @@
+/*GENERAL*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+
 /*HEADER*/
+
+.logo {
+    width: 3%;
+    height: 3%;
+}
+
+.navbar-brand {
+    margin: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 header {
     width: 100%;
@@ -17,48 +43,11 @@ header .textos-header {
     text-align: center;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-
-header {
-    display: block;
-}
-
-body {
-    font-family: "Open Sans", sans-serif;
-}
-
-.logo {
-    width: 3%;
-    height: 3%;
-}
-
-.navbar-brand {
-    margin: 5px;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 h2 {
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-
-h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
@@ -84,16 +73,6 @@ h1 {
     font-weight: bold;
 }
 
-h3 {
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-
 .contingut-textos h3 {
     font-size: 20px;
     font-weight: bold;
@@ -115,16 +94,28 @@ h3 {
 }
 
 .contingut-textos p {
-    margin-left: 15px;
-    font-weight: 320;
-    text-align: justify;
-    text-align: center;
-    width: 100%;
     padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.contingut-textos {
+    width: 48%;
 }
 
 .contenidor-sobre-institut {
     display: flex;
     justify-content: space-evenly;
     margin-top: 130px;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.imatge-institut {
+    width: 30%;
+    margin-bottom: 100px;
 }
