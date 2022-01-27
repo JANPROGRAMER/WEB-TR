@@ -1,0 +1,27 @@
+/*GENERAL*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/*HEADER*/
+
+.logo {
+    width: 3%;
+    height: 3%;
+}
+
+.navbar-brand {
+    margin: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
